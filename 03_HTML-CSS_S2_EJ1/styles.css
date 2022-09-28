@@ -1,0 +1,35 @@
+.header nav {
+    display: flex;
+}
+
+.header img {
+  height: 40px;
+  margin-right: 100px;
+}
+
+.header div {
+  text-align: right;
+  margin-right: 0;
+}
+
+.social-media {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.google {
+  background-color: #4286f5;
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.facebook {
+  background-color: #4268b2;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
