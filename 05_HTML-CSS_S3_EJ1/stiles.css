@@ -1,0 +1,24 @@
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.pics {
+    display: flex;
+    width: 1500px;
+    height: 2000px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.grid {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
