@@ -1,16 +1,16 @@
 header {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 nav {
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 nav div h1 {
@@ -41,12 +41,12 @@ main {
 
 .pics {
     display: flex;
-    width: 70%;
+    width: 1250px;
     height: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     align-items: center;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
    
 }
 
@@ -72,17 +72,27 @@ main {
 }
 
 .newsletter {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box {
+.box1 {
     margin-top: 50px;
     padding: 20px;
     border-top: solid;
     border-bottom: solid;
+    border-width: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 {
+    border-bottom: solid;
+    border-width: 1px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,7 +101,7 @@ main {
 
 footer {
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
 }
 
