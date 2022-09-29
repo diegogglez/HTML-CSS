@@ -1,37 +1,57 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
 nav {
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: lightcoral;
 }
 
 nav div h1 {
     font-size: 60px;
     display: block;
+    margin: 0;   
 }
 
+nav div p {
+    display: block;
+    margin: 0;
+}
+
+
 .ruta {
-    padding: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: column;
     
 }
 
 .pics {
     display: flex;
-    width: 1500px;
-    height: 2000px;
+    width: 70%;
+    height: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-color: lightsalmon;
    
 }
 
 .grid {
-    margin: 20px;
+    margin: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,3 +61,74 @@ main {
 .grid p {
     display: block;
 }
+
+.menu, .ruta, .buscador {
+    width: 400px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newsletter {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: solid;
+    border-bottom: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 0px;
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.socialList {
+    display: flex;
+}
+
+.icons img {
+    
+    width: 19px;
+    margin-bottom: 10px;
+}
+
+.icons {
+   display: flex;
+   margin-right: 10px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.names ul li {
+    margin-bottom: 10px;
+}
+
