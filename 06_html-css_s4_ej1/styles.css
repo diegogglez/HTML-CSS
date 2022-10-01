@@ -260,6 +260,9 @@ table {
 .grid .model {
      
     width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 
@@ -274,6 +277,18 @@ table {
     flex-wrap: wrap;
     gap: 20px;
     width: 100%;
+
+}
+
+.model ul {
+
+    gap: 10px;
+
+}
+
+.model li {
+
+    font-weight: bold;
 
 }
 
