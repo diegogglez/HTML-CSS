@@ -1,16 +1,51 @@
-* {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-padding: 0;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.9);
+	vertical-align: baseline;
 }
-
-.main {
-
-    margin: 0 auto;
-    max-width: 1440px;
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* HEADER */
@@ -18,7 +53,8 @@ font-family: Arial, Helvetica, sans-serif;
 .header {
     
     width: 100%;
-   /*  max-width: 1000px; */
+    max-width: 1440px;
+    margin: 0 auto;
     height: 600px;
     background-image: url(resources/BMW-iX1-2023-1600-0d.jpg);
     background-position: center;
@@ -69,7 +105,7 @@ font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     margin-right: 10px;
     color: whitesmoke;
-    font-family: sans-serif;
+    
 }
 
 .user {
@@ -117,7 +153,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .bmw-logo img {
 
-    width: 50%;
+    width: 75%;
 
 }
 
@@ -127,5 +163,149 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/* BWV PORTFOLIO */
+
+.main {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.series {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.bmw-portfolio {
+
+    border: 5px solid orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    gap: 20px;
+   
+}
+
+
+.bmw-portfolio nav {
+
+    width: 100%;
+}
+
+.bmw-portfolio nav ul {
+
+    display: flex;
+    gap: 20px;
+}
+
+
+.grid .model {
+     
+    width: 20%;
+
+}
+
+.grid .model img {
+
+    width: 100%;
+}
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+}
+
+
+/* NEWS LETTER */
+
+.news-letter {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid orangered; */
+    gap: 50px;
+}
+
+.news {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.item {
+    border: 1px solid lightgray;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+
+}
+
+.item h2 {
+
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.news .item {
+
+    width: 25%;
+}
+
+
+.links {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+.links .item {
+
+    width: 50%;
+    
         
+}
+
+.links .item img {
+
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+   
+}
+
+
+
+
+
+ 
     
