@@ -79,14 +79,44 @@ table {
     padding-bottom: 5px;
 }
 
+.user-logo_box {
+    display: flex;
+    gap: 50px;
+}
+
 .offer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
     width: 100%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.offer h1 {
     color: whitesmoke;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    font-size: 2em;
+
+}
+
+.offer h3 {
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.offer a {
+
+    background-color: #1c69d5;
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 100px;
+    
 }
 
 .pages{
@@ -116,8 +146,8 @@ table {
 }
 
 .user img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     opacity: 90%;
 }
 
@@ -162,6 +192,7 @@ table {
     font-size: 0.5em;
 
 }
+
 
 /* BWV PORTFOLIO */
 
