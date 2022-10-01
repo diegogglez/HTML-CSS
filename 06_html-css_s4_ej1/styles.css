@@ -55,9 +55,9 @@ table {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    height: 600px;
+    height: 700px;
     background-image: url(resources/BMW-iX1-2023-1600-0d.jpg);
-    background-position: center;
+    background-position: center -220px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
