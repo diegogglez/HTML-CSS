@@ -1,4 +1,22 @@
 .header {
   width: 100%;
   height: 80px;
+  background-color: #541554;
+  display: flex;
+  justify-content: center;
+}
+.header .header__nav {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo__svg {
+  width: 100px;
+  height: 25px;
+}
+.header .buttom__svg {
+  width: 18px;
+  height: 12px;
 }/*# sourceMappingURL=styles.css.map */
