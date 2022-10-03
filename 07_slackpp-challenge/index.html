@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slack web</title>
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="text/jascript" href="index.js"></script>
 </head>
+
 <body>
   <header class="header">
     <nav class="header__nav">
@@ -20,51 +23,91 @@
     </nav>
   </header>
   <main class="main">
-  <article class="main__intro">
-    <div class="intro__container">
-      <h1 class="container__title">Un buen trabajo en equipo comienza con una <span>sede digital</span></h1>
-      <p class="container__text">Reunir a todos tus compañeros, 
-        herramientas y comunicación en un mismo lugar te permitirá 
-        trabajar de manera más rápida y eficiente que nunca.</p>
-        <div class="container__link">
-          <a href="#"">CONSIGUE SLACK PARA IOS</a>
+    <article class="main__intro">
+      <div class="intro__container">
+        <h1 class="container__title">Un buen trabajo en equipo comienza con una <span>sede digital</span></h1>
+        <p class="container__text">Reunir a todos tus compañeros,
+          herramientas y comunicación en un mismo lugar te permitirá
+          trabajar de manera más rápida y eficiente que nunca.</p>
+        <div class="container__link container__link--white">
+          <a href="#">CONSIGUE SLACK PARA IOS</a>
         </div>
-    </div>
-  </article>
-  <section class="main__brands">
-    <p class="brands__title">EMPRESAS DE TODO EL MUNDO YA CONFÍA EN SLACK</p>
-    <div class="brands__grid">
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png" alt="airbnb">
+        <div class="container__link container__link--blue">
+          <div class="link__google">
+            <img src="resources/Google__G__Logo.svg" alt="google">
+          </div>
+          <a href="#">REGISTRARSE CON GOOGLE</a>
+        </div>
+        <div class="container__video">
+          <video autoplay loop muted>
+            <source
+              src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/mp4/hero-product-ui.es-ES.mp4"
+              type="video/mp4" />
+          </video>
+        </div>
       </div>
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png" alt="nasa">
+    </article>
+    <section class="main__brands">
+      <p class="brands__title">EMPRESAS DE TODO EL MUNDO YA CONFÍA EN SLACK</p>
+      <div class="brands__grid">
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png" alt="airbnb">
+        </div>
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png" alt="nasa">
+        </div>
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png" alt="uber">
+        </div>
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png" alt="target">
+        </div>
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png" alt="theNewYorkTimes">
+        </div>
+        <div class="grid__logo">
+          <img src="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png" alt="etsy">
+        </div>
       </div>
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png" alt="uber">
+    </section>
+    <section class="main__functions">
+      <div class="functions__item">
+        <div class="item__graphic-container item__graphic-container--izq">
+          <div class="graphic-container__color graphic-container__color--blue"></div>
+        </div>
+        <div class="item__text">
+          <h2>Reúne a tu equipo</h2>
+          <p>Los canales son el corazón de Slack.
+            Son espacios organizados para todo el mundo que contienen todo lo necesario para trabajar.
+            Los canales permiten conectarse entre departamentos, oficinas, zonas horarias e incluso con otras empresas.
+          </p>
+          <a href="#">Optener más información sobre los canales</a>
+        </div>
       </div>
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png" alt="target">
+      <div class="functions__item">
+        <div class="item__graphic-container item__graphic-container--dcha">
+          <div class="graphic-container__color graphic-container__color--green"></div>
+        </div>
+        <div class="item__text">
+          <h2>Selecciona cómo quieres trabajar</h2>
+          <p>Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.
+          </p>
+          <a href="#">Obtén más información acerca de la comunicación flexible</a>
+        </div>
       </div>
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png" alt="theNewYorkTimes">
+      <div class="functions__item">
+        <div class="item__graphic-container item__graphic-container--izq">
+          <div class="graphic-container__color graphic-container__color--yellow"></div>
+        </div>
+        <div class="item__text">
+          <h2>Agiliza el trabajo con todas tus herramientas en un mismo lugar</h2>
+          <p>Conectar tus otras aplicaciones de trabajo con Slack te permite ahorrar tiempo al no tener que cambiar entre pestañas. Además, con herramientas eficaces como el Creador de flujos de trabajo, puedes automatizar tareas rutinarias.
+          </p>
+          <a href="#">Más información sobre la plataforma de Slack</a>
+        </div>
       </div>
-      <div class="grid__logo">
-        <img src="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png" alt="etsy">
-      </div>
-    </div>
-  </section>
-  <section class="main__your-team">
-    <div class="your-team__graphic"></div>
-    <div class="your-team__text">
-      <h2>Reúne a tu equipo</h2>
-      <p>Los canales son el corazón de Slack.
-         Son espacios organizados para todo el mundo que contienen todo lo necesario para trabajar. 
-         Los canales permiten conectarse entre departamentos, oficinas, zonas horarias e incluso con otras empresas.</p>
-    </div>
-  </section>
-  <section class="main__prueba"></section>
+    </section>
   </main>
 </body>
-</html>
 
+</html>
